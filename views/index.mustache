@@ -15,20 +15,20 @@
 <div class="user-container-full">
     {{#users}}
     <div class="users-full">
-    <img src="{{avatar}}">
+        <img src="{{avatar}}">
         <div class="head-top">
-        <h1>{{name}}</h1>
-        {{#address.city}}
-        <p>{{address.country}}, {{address.city}} | {{#job}} {{job}} {{company}} {{/job}} {{^job}}
-            <div id="hire">Avilable for hire</div> {{/job}} {{/address.city}}
-            <div class="email-phone">{{email}} | {{phone}}</div>
-            </div>
-            <div class="head-bottom">
+            <h1>{{name}}</h1>
+            {{#address.city}}
+            <p>{{address.country}}, {{address.city}} | {{#job}} {{job}} {{company}} {{/job}} {{^job}}
+                <div id="hire">Avilable for hire</div> {{/job}} {{/address.city}}
+                <div class="email-phone">{{email}} | {{phone}}</div>
+        </div>
+        <div class="head-bottom">
             {{#university}}
             <p>Education: {{university}}</p>
             {{/university}} {{^university}} {{/university}}
             <p>Skills: {{skills}}</p>
-            </div>
+        </div>
     </div>
     {{/users}}
 </div>

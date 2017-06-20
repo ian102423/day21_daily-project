@@ -14,11 +14,6 @@ app.get("/", function(req, res) {
   res.render("index", data);
 });
 
-// app.get("/users/", function(req, res){
-//     res.render("users", data)
-// })
-
-
 app.listen(port, function(req, res) {
   console.log("You are on the PORT: " + port + "...");
 });
