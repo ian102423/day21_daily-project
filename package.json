@@ -1,0 +1,27 @@
+{
+  "name": "day21_daily-project_robots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-mustache": "^1.0.3",
+    "mongodb": "^2.2.29",
+    "mustache-express": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian102423/day21_daily-project_robots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian102423/day21_daily-project_robots/issues"
+  },
+  "homepage": "https://github.com/ian102423/day21_daily-project_robots#readme"
+}
